@@ -1,0 +1,92 @@
+body {
+  background: #9266ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+h1{
+  color: darkred;
+  text-align: center;
+}
+
+.App{
+  background-color: #3f3160;
+  border: 10px solid burlywood;
+  border-radius: 15px;
+  min-height: 500px;
+  width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.App h4{
+  margin: 20px;
+  padding-top: 10px;
+}
+
+.App input{
+  background-color: rgb(27,112,137);
+  border: 0;
+  color: #fff;
+  width: 200px;
+  height: 30px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.App input::placeholder{
+  color: rgba((255), 255, 255, 0.5);
+}
+
+.App input:focus{
+  outline: none;
+}
+
+.App button{
+  background: rgb(202,156,24);
+  margin: 20px;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.App button:focus{
+  outline: none;
+}
+
+.App ul li{
+  padding: 10px;
+  position: relative;
+}
+
+.App ul li input{
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.App ul li input:focus{
+  outline: none;
+}
+
+.App ul li button{
+  background-color: rgb(27,112,137);
+  margin: 0 5px;
+  font-size: 15px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  border:0;
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bolder;
+}
